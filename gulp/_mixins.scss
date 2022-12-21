@@ -1,0 +1,8 @@
+@mixin nospace {
+    margin: 0;
+    padding: 0;
+  }
+  @mixin boxmodel($margin, $padding) {
+    margin: $margin;
+    padding: $padding;
+  }
